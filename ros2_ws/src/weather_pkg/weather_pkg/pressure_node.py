@@ -6,7 +6,7 @@ from example_interfaces.msg import String
 class PressureNode(Node):
     def __init__(self):
         super().__init__("pressure_node")
-        self.publisher_ = self.create_publisher(String, "robot_news", 10)
+        self.publisher_ = self.create_publisher(String, "pressure", 10)
         self.timer_ = self.create_timer(0.5, self.publish_news)
         self.get_logger().info("Pressure sensor has been started")
 
