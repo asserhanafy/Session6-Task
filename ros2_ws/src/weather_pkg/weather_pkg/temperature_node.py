@@ -6,8 +6,6 @@ from example_interfaces.msg import String
 class TemperatureNode(Node):
     def __init__(self):
         super().__init__("temperature_node")
-        self.min_temp_ = 10
-        self.max_temp_ = 100
         self.publisher_ = self.create_publisher(String, "robot_news", 10)
         self.timer_ = self.create_timer(0.5, self.publish_news)
         self.get_logger().info("Temperature sensor has been started")
