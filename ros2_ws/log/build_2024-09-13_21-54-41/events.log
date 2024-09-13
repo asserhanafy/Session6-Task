@@ -1,0 +1,52 @@
+[0.000000] (-) TimerEvent: {}
+[0.000247] (weather_pkg) JobQueued: {'identifier': 'weather_pkg', 'dependencies': OrderedDict()}
+[0.000644] (weather_pkg) JobStarted: {'identifier': 'weather_pkg'}
+[0.099937] (-) TimerEvent: {}
+[0.200159] (-) TimerEvent: {}
+[0.300319] (-) TimerEvent: {}
+[0.400504] (-) TimerEvent: {}
+[0.500668] (-) TimerEvent: {}
+[0.600883] (-) TimerEvent: {}
+[0.701111] (-) TimerEvent: {}
+[0.710526] (weather_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/asserhanafy/session6-task/ros2_ws/build/weather_pkg/build', '--no-deps', 'symlink_data', '--force'], 'cwd': '/home/asserhanafy/session6-task/ros2_ws/build/weather_pkg', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2056-13-asserhanafy-G7-7500_TIME4577875', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'asserhanafy', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/asserhanafy', 'OLDPWD': '/home/asserhanafy', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1548', 'SYSTEMD_EXEC_PID': '2056', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '11845', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/asserhanafy/session6-task/ros2_ws/install:/home/asserhanafy/ros1_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'asserhanafy', 'JOURNAL_STREAM': '8:16687', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'asserhanafy', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/asserhanafy-G7-7500:@/tmp/.ICE-unix/2013,unix/asserhanafy-G7-7500:/tmp/.ICE-unix/2013', 'INVOCATION_ID': 'adad85fd5f2c4f5ea7b3bf1876458dfe', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/asserhanafy/session6-task/ros2_ws/install/weather_pkg:/home/asserhanafy/ros1_ws/install/my_py_pkg:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:341cd947-81a2-4260-940e-94f3cbcb5e24', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/asserhanafy/session6-task/ros2_ws/build/weather_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/asserhanafy/session6-task/ros2_ws/build/weather_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/asserhanafy/session6-task/ros2_ws/install/weather_pkg/lib/python3.12/site-packages:/home/asserhanafy/session6-task/ros2_ws/install/weather_pkg/lib/python3.12/site-packages:/home/asserhanafy/ros1_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[0.801188] (-) TimerEvent: {}
+[0.901367] (-) TimerEvent: {}
+[0.960452] (weather_pkg) StdoutLine: {'line': b'running develop\n'}
+[0.969161] (weather_pkg) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.\n'}
+[0.969290] (weather_pkg) StderrLine: {'line': b'!!\n'}
+[0.969369] (weather_pkg) StderrLine: {'line': b'\n'}
+[0.969457] (weather_pkg) StderrLine: {'line': b'        ********************************************************************************\n'}
+[0.969536] (weather_pkg) StderrLine: {'line': b'        Please avoid running ``setup.py`` and ``easy_install``.\n'}
+[0.969611] (weather_pkg) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[0.969685] (weather_pkg) StderrLine: {'line': b'        standards-based tools.\n'}
+[0.969748] (weather_pkg) StderrLine: {'line': b'\n'}
+[0.969826] (weather_pkg) StderrLine: {'line': b'        See https://github.com/pypa/setuptools/issues/917 for details.\n'}
+[0.969894] (weather_pkg) StderrLine: {'line': b'        ********************************************************************************\n'}
+[0.969969] (weather_pkg) StderrLine: {'line': b'\n'}
+[0.970038] (weather_pkg) StderrLine: {'line': b'!!\n'}
+[0.970106] (weather_pkg) StderrLine: {'line': b'  easy_install.initialize_options(self)\n'}
+[1.001427] (-) TimerEvent: {}
+[1.101588] (-) TimerEvent: {}
+[1.128743] (weather_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[1.144060] (weather_pkg) StdoutLine: {'line': b'writing weather_pkg.egg-info/PKG-INFO\n'}
+[1.144304] (weather_pkg) StdoutLine: {'line': b'writing dependency_links to weather_pkg.egg-info/dependency_links.txt\n'}
+[1.144514] (weather_pkg) StdoutLine: {'line': b'writing entry points to weather_pkg.egg-info/entry_points.txt\n'}
+[1.144677] (weather_pkg) StdoutLine: {'line': b'writing requirements to weather_pkg.egg-info/requires.txt\n'}
+[1.144825] (weather_pkg) StdoutLine: {'line': b'writing top-level names to weather_pkg.egg-info/top_level.txt\n'}
+[1.176531] (weather_pkg) StdoutLine: {'line': b"reading manifest file 'weather_pkg.egg-info/SOURCES.txt'\n"}
+[1.177106] (weather_pkg) StdoutLine: {'line': b"writing manifest file 'weather_pkg.egg-info/SOURCES.txt'\n"}
+[1.193544] (weather_pkg) StdoutLine: {'line': b'running build_ext\n'}
+[1.193701] (weather_pkg) StdoutLine: {'line': b'Creating /home/asserhanafy/session6-task/ros2_ws/install/weather_pkg/lib/python3.12/site-packages/weather-pkg.egg-link (link to .)\n'}
+[1.194208] (weather_pkg) StdoutLine: {'line': b'Installing aggregator_node script to /home/asserhanafy/session6-task/ros2_ws/install/weather_pkg/lib/weather_pkg\n'}
+[1.194376] (weather_pkg) StdoutLine: {'line': b'Installing humidity_node script to /home/asserhanafy/session6-task/ros2_ws/install/weather_pkg/lib/weather_pkg\n'}
+[1.194599] (weather_pkg) StdoutLine: {'line': b'Installing pressure_node script to /home/asserhanafy/session6-task/ros2_ws/install/weather_pkg/lib/weather_pkg\n'}
+[1.194750] (weather_pkg) StdoutLine: {'line': b'Installing temperature_node script to /home/asserhanafy/session6-task/ros2_ws/install/weather_pkg/lib/weather_pkg\n'}
+[1.194957] (weather_pkg) StdoutLine: {'line': b'\n'}
+[1.195067] (weather_pkg) StdoutLine: {'line': b'Installed /home/asserhanafy/session6-task/ros2_ws/build/weather_pkg\n'}
+[1.195144] (weather_pkg) StdoutLine: {'line': b'running symlink_data\n'}
+[1.195215] (weather_pkg) StdoutLine: {'line': b'symbolically linking /home/asserhanafy/session6-task/ros2_ws/build/weather_pkg/resource/weather_pkg -> /home/asserhanafy/session6-task/ros2_ws/install/weather_pkg/share/ament_index/resource_index/packages\n'}
+[1.195310] (weather_pkg) StdoutLine: {'line': b'symbolically linking /home/asserhanafy/session6-task/ros2_ws/build/weather_pkg/package.xml -> /home/asserhanafy/session6-task/ros2_ws/install/weather_pkg/share/weather_pkg\n'}
+[1.201664] (-) TimerEvent: {}
+[1.218327] (weather_pkg) CommandEnded: {'returncode': 0}
+[1.228297] (weather_pkg) JobEnded: {'identifier': 'weather_pkg', 'rc': 0}
+[1.229060] (-) EventReactorShutdown: {}

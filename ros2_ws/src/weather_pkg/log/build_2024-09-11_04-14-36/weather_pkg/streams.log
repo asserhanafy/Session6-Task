@@ -1,0 +1,52 @@
+[0.506s] Invoking command in '/home/danya-ahmed/session6-task/ros2_ws/src/weather_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/danya-ahmed/session6-task/ros2_ws/src/weather_pkg/build/weather_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/danya-ahmed/session6-task/ros2_ws/src/weather_pkg/install/weather_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/weather_pkg build --build-base /home/danya-ahmed/session6-task/ros2_ws/src/weather_pkg/build/weather_pkg/build install --record /home/danya-ahmed/session6-task/ros2_ws/src/weather_pkg/build/weather_pkg/install.log --single-version-externally-managed install_data
+[0.683s] running egg_info
+[0.683s] creating build/weather_pkg/weather_pkg.egg-info
+[0.694s] writing build/weather_pkg/weather_pkg.egg-info/PKG-INFO
+[0.695s] writing dependency_links to build/weather_pkg/weather_pkg.egg-info/dependency_links.txt
+[0.695s] writing entry points to build/weather_pkg/weather_pkg.egg-info/entry_points.txt
+[0.695s] writing requirements to build/weather_pkg/weather_pkg.egg-info/requires.txt
+[0.695s] writing top-level names to build/weather_pkg/weather_pkg.egg-info/top_level.txt
+[0.695s] writing manifest file 'build/weather_pkg/weather_pkg.egg-info/SOURCES.txt'
+[0.719s] reading manifest file 'build/weather_pkg/weather_pkg.egg-info/SOURCES.txt'
+[0.719s] writing manifest file 'build/weather_pkg/weather_pkg.egg-info/SOURCES.txt'
+[0.720s] running build
+[0.720s] running build_py
+[0.720s] creating /home/danya-ahmed/session6-task/ros2_ws/src/weather_pkg/build/weather_pkg/build
+[0.720s] creating /home/danya-ahmed/session6-task/ros2_ws/src/weather_pkg/build/weather_pkg/build/lib
+[0.720s] creating /home/danya-ahmed/session6-task/ros2_ws/src/weather_pkg/build/weather_pkg/build/lib/weather_pkg
+[0.720s] copying weather_pkg/remote_station_node.py -> /home/danya-ahmed/session6-task/ros2_ws/src/weather_pkg/build/weather_pkg/build/lib/weather_pkg
+[0.720s] copying weather_pkg/aggregator_node.py -> /home/danya-ahmed/session6-task/ros2_ws/src/weather_pkg/build/weather_pkg/build/lib/weather_pkg
+[0.720s] copying weather_pkg/temperature_node.py -> /home/danya-ahmed/session6-task/ros2_ws/src/weather_pkg/build/weather_pkg/build/lib/weather_pkg
+[0.720s] copying weather_pkg/pressure_node.py -> /home/danya-ahmed/session6-task/ros2_ws/src/weather_pkg/build/weather_pkg/build/lib/weather_pkg
+[0.720s] copying weather_pkg/__init__.py -> /home/danya-ahmed/session6-task/ros2_ws/src/weather_pkg/build/weather_pkg/build/lib/weather_pkg
+[0.720s] copying weather_pkg/humidity_node.py -> /home/danya-ahmed/session6-task/ros2_ws/src/weather_pkg/build/weather_pkg/build/lib/weather_pkg
+[0.720s] running install
+[0.725s] running install_lib
+[0.737s] creating /home/danya-ahmed/session6-task/ros2_ws/src/weather_pkg/install/weather_pkg/lib/python3.12/site-packages/weather_pkg
+[0.737s] copying /home/danya-ahmed/session6-task/ros2_ws/src/weather_pkg/build/weather_pkg/build/lib/weather_pkg/remote_station_node.py -> /home/danya-ahmed/session6-task/ros2_ws/src/weather_pkg/install/weather_pkg/lib/python3.12/site-packages/weather_pkg
+[0.737s] copying /home/danya-ahmed/session6-task/ros2_ws/src/weather_pkg/build/weather_pkg/build/lib/weather_pkg/aggregator_node.py -> /home/danya-ahmed/session6-task/ros2_ws/src/weather_pkg/install/weather_pkg/lib/python3.12/site-packages/weather_pkg
+[0.737s] copying /home/danya-ahmed/session6-task/ros2_ws/src/weather_pkg/build/weather_pkg/build/lib/weather_pkg/temperature_node.py -> /home/danya-ahmed/session6-task/ros2_ws/src/weather_pkg/install/weather_pkg/lib/python3.12/site-packages/weather_pkg
+[0.737s] copying /home/danya-ahmed/session6-task/ros2_ws/src/weather_pkg/build/weather_pkg/build/lib/weather_pkg/pressure_node.py -> /home/danya-ahmed/session6-task/ros2_ws/src/weather_pkg/install/weather_pkg/lib/python3.12/site-packages/weather_pkg
+[0.737s] copying /home/danya-ahmed/session6-task/ros2_ws/src/weather_pkg/build/weather_pkg/build/lib/weather_pkg/__init__.py -> /home/danya-ahmed/session6-task/ros2_ws/src/weather_pkg/install/weather_pkg/lib/python3.12/site-packages/weather_pkg
+[0.737s] copying /home/danya-ahmed/session6-task/ros2_ws/src/weather_pkg/build/weather_pkg/build/lib/weather_pkg/humidity_node.py -> /home/danya-ahmed/session6-task/ros2_ws/src/weather_pkg/install/weather_pkg/lib/python3.12/site-packages/weather_pkg
+[0.737s] byte-compiling /home/danya-ahmed/session6-task/ros2_ws/src/weather_pkg/install/weather_pkg/lib/python3.12/site-packages/weather_pkg/remote_station_node.py to remote_station_node.cpython-312.pyc
+[0.737s] byte-compiling /home/danya-ahmed/session6-task/ros2_ws/src/weather_pkg/install/weather_pkg/lib/python3.12/site-packages/weather_pkg/aggregator_node.py to aggregator_node.cpython-312.pyc
+[0.738s] byte-compiling /home/danya-ahmed/session6-task/ros2_ws/src/weather_pkg/install/weather_pkg/lib/python3.12/site-packages/weather_pkg/temperature_node.py to temperature_node.cpython-312.pyc
+[0.738s] byte-compiling /home/danya-ahmed/session6-task/ros2_ws/src/weather_pkg/install/weather_pkg/lib/python3.12/site-packages/weather_pkg/pressure_node.py to pressure_node.cpython-312.pyc
+[0.738s] byte-compiling /home/danya-ahmed/session6-task/ros2_ws/src/weather_pkg/install/weather_pkg/lib/python3.12/site-packages/weather_pkg/__init__.py to __init__.cpython-312.pyc
+[0.739s] byte-compiling /home/danya-ahmed/session6-task/ros2_ws/src/weather_pkg/install/weather_pkg/lib/python3.12/site-packages/weather_pkg/humidity_node.py to humidity_node.cpython-312.pyc
+[0.739s] running install_data
+[0.739s] creating /home/danya-ahmed/session6-task/ros2_ws/src/weather_pkg/install/weather_pkg/share/ament_index
+[0.739s] creating /home/danya-ahmed/session6-task/ros2_ws/src/weather_pkg/install/weather_pkg/share/ament_index/resource_index
+[0.739s] creating /home/danya-ahmed/session6-task/ros2_ws/src/weather_pkg/install/weather_pkg/share/ament_index/resource_index/packages
+[0.739s] copying resource/weather_pkg -> /home/danya-ahmed/session6-task/ros2_ws/src/weather_pkg/install/weather_pkg/share/ament_index/resource_index/packages
+[0.739s] copying package.xml -> /home/danya-ahmed/session6-task/ros2_ws/src/weather_pkg/install/weather_pkg/share/weather_pkg
+[0.739s] running install_egg_info
+[0.752s] Copying build/weather_pkg/weather_pkg.egg-info to /home/danya-ahmed/session6-task/ros2_ws/src/weather_pkg/install/weather_pkg/lib/python3.12/site-packages/weather_pkg-0.0.0-py3.12.egg-info
+[0.752s] running install_scripts
+[0.834s] Installing aggregator_node script to /home/danya-ahmed/session6-task/ros2_ws/src/weather_pkg/install/weather_pkg/lib/weather_pkg
+[0.834s] Installing humidity_node script to /home/danya-ahmed/session6-task/ros2_ws/src/weather_pkg/install/weather_pkg/lib/weather_pkg
+[0.834s] Installing pressure_node script to /home/danya-ahmed/session6-task/ros2_ws/src/weather_pkg/install/weather_pkg/lib/weather_pkg
+[0.834s] Installing temperature_node script to /home/danya-ahmed/session6-task/ros2_ws/src/weather_pkg/install/weather_pkg/lib/weather_pkg
+[0.834s] writing list of installed files to '/home/danya-ahmed/session6-task/ros2_ws/src/weather_pkg/build/weather_pkg/install.log'
+[0.852s] Invoked command in '/home/danya-ahmed/session6-task/ros2_ws/src/weather_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/danya-ahmed/session6-task/ros2_ws/src/weather_pkg/build/weather_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/danya-ahmed/session6-task/ros2_ws/src/weather_pkg/install/weather_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/weather_pkg build --build-base /home/danya-ahmed/session6-task/ros2_ws/src/weather_pkg/build/weather_pkg/build install --record /home/danya-ahmed/session6-task/ros2_ws/src/weather_pkg/build/weather_pkg/install.log --single-version-externally-managed install_data

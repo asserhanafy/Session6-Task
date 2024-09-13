@@ -1,0 +1,35 @@
+[0.710s] Invoking command in '/home/asserhanafy/session6-task/ros2_ws/build/weather_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/asserhanafy/session6-task/ros2_ws/build/weather_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/asserhanafy/session6-task/ros2_ws/install/weather_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/asserhanafy/session6-task/ros2_ws/build/weather_pkg/build --no-deps symlink_data --force
+[0.960s] running develop
+[0.969s] /usr/lib/python3/dist-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[0.969s] !!
+[0.969s] 
+[0.969s]         ********************************************************************************
+[0.969s]         Please avoid running ``setup.py`` and ``easy_install``.
+[0.969s]         Instead, use pypa/build, pypa/installer or other
+[0.969s]         standards-based tools.
+[0.969s] 
+[0.969s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[0.969s]         ********************************************************************************
+[0.969s] 
+[0.969s] !!
+[0.969s]   easy_install.initialize_options(self)
+[1.128s] running egg_info
+[1.143s] writing weather_pkg.egg-info/PKG-INFO
+[1.144s] writing dependency_links to weather_pkg.egg-info/dependency_links.txt
+[1.144s] writing entry points to weather_pkg.egg-info/entry_points.txt
+[1.144s] writing requirements to weather_pkg.egg-info/requires.txt
+[1.144s] writing top-level names to weather_pkg.egg-info/top_level.txt
+[1.176s] reading manifest file 'weather_pkg.egg-info/SOURCES.txt'
+[1.177s] writing manifest file 'weather_pkg.egg-info/SOURCES.txt'
+[1.193s] running build_ext
+[1.193s] Creating /home/asserhanafy/session6-task/ros2_ws/install/weather_pkg/lib/python3.12/site-packages/weather-pkg.egg-link (link to .)
+[1.194s] Installing aggregator_node script to /home/asserhanafy/session6-task/ros2_ws/install/weather_pkg/lib/weather_pkg
+[1.194s] Installing humidity_node script to /home/asserhanafy/session6-task/ros2_ws/install/weather_pkg/lib/weather_pkg
+[1.194s] Installing pressure_node script to /home/asserhanafy/session6-task/ros2_ws/install/weather_pkg/lib/weather_pkg
+[1.194s] Installing temperature_node script to /home/asserhanafy/session6-task/ros2_ws/install/weather_pkg/lib/weather_pkg
+[1.194s] 
+[1.194s] Installed /home/asserhanafy/session6-task/ros2_ws/build/weather_pkg
+[1.195s] running symlink_data
+[1.195s] symbolically linking /home/asserhanafy/session6-task/ros2_ws/build/weather_pkg/resource/weather_pkg -> /home/asserhanafy/session6-task/ros2_ws/install/weather_pkg/share/ament_index/resource_index/packages
+[1.195s] symbolically linking /home/asserhanafy/session6-task/ros2_ws/build/weather_pkg/package.xml -> /home/asserhanafy/session6-task/ros2_ws/install/weather_pkg/share/weather_pkg
+[1.218s] Invoked command in '/home/asserhanafy/session6-task/ros2_ws/build/weather_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/asserhanafy/session6-task/ros2_ws/build/weather_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/asserhanafy/session6-task/ros2_ws/install/weather_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/asserhanafy/session6-task/ros2_ws/build/weather_pkg/build --no-deps symlink_data --force
